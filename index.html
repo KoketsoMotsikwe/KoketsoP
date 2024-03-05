@@ -9,26 +9,46 @@
 
 
 <body>
-    <div id="header">
-        <div class="container">
-            <nav>
-               <img src="images/koks.png" class="logo"> 
-               <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-               </ul>
-            </nav>
-           <div class="header-text">
-            <p>Junior Sotware Automation Engineer</p>
-            <h1>Hi I am Koketso Motsikwe</h1>
-           </div>
-        </div>
-    </div> 
-    <div id="about">
-        
+   <nav id="desktop-nav">
+    <div class="logo">Koketso</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
     </div>
+   </nav>
+   <!-- <nav id="hamburger-nav">
+    <div class="logo">Koketso</div>
+    <div class="hamburger-menu"></div>
+    <div class="hamburger-icon"></div>
+   </nav> -->
+   <section id="profile">
+    <div class="section__pic-container">
+        <img src="images/kok-p.JPG" alt="Koketso Profile Pic">
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="tittle">Koketso Motsikwe</h1>
+            <p class="section__text__p2">Junior Automation Engineer</p>
+            <div class="btn-container">
+                <button class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/koketso.pdf')">Download CV</button>
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </button>
+            </div>
+        </div>
+        <div id="socials-container">
+            <img src="images/in.png" alt="LinkedIn Icon"
+            class="icon" onClick="location.href='https://www.linkedin.com/in/koketso-motsikwe/'"/>
+            <img src="images/git.png" alt="Github Profile"
+            class="icon" onClick="location.href='https://github.com/KoketsoMotsikwe/'"/>
+        </div>
+    </div>
+
+   </section>
 </body>
 </html>
