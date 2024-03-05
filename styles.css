@@ -1,26 +1,80 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box
-}
-body{
-    
-    background:#000;
-    color: #ff66c4;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.contact{
+    position: relative;
+    min-height: 100vh;
+}
 #header{
     width: 100%;
     height: 100vh;
-    /* background-image: url(images/IMG_0043.JPG); */
+
     background-size: auto; 
     background-position: right;
     background-repeat: no-repeat;
 }
 .container{
-    padding: 10px 10%
+    padding: 20px;
+    /* width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    text-align: center; */
 }
+.form{
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 7px;
+}
+h1{
+    padding: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-right: 10%;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box;
+  }
+  .subject{
+    height: 80px;
+    width: 100%;
+    border-radius: 7px;
+  }
+ 
+
+  .contact{
+    margin-right: 50px;
+  }
+   
+
+  .button {
+    background-color:#ff66c4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+   margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #ff66c4;
+  }
 
 nav{
     display: flex;
@@ -76,6 +130,10 @@ nav ul li a:hover::after{
 
 }
 
-contact{
-    padding-left: 10px;
+footer{
+    background-color: rgb(181, 180, 176); 
+    width: 80%;
+    margin-left: 10%;
+    font-size: 15px;
+    text-align: center;
 }
