@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+   
 }
 
 body{
@@ -12,7 +13,7 @@ html{
 }
 
 p{
-    color: rgb(85,85,85);
+    color: rgb(85, 85, 85);
 }
 
 a, .btn{
@@ -42,7 +43,7 @@ a{
 }
 
 a:hover{
-    color: grey;
+    color: rgb(128, 128, 128);
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
@@ -186,6 +187,46 @@ border: rgb(255, 255, 255) 0.1rem solid;
 
 .btn-container{
     gap: 1rem;
+}
+
+#about{
+    position: relative;
+}
+
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+ .about-details-container{
+display: flex;
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
 
 
