@@ -130,12 +130,13 @@ margin-bottom: 1rem;
     text-align: center;
 }
 
-#socials-container{
+#socials-container {
 display: flex;
-justify-content: center;
-margin-top: 1rem;
+justify-content:center;
+margin-top: 22rem;
 gap: 1rem;
 }
+
 
 .icon{
 cursor: pointer;
