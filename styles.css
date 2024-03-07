@@ -52,6 +52,7 @@ a:hover{
 
 .logo{
     font-size: 2rem;
+    color:pink;
 }
 
 .logo:hover{
@@ -278,3 +279,5 @@ article{
 article .icon{
     cursor: default;
 }
+
+
