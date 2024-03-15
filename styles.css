@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding: 0;
-    background-color: rgb(181, 146, 160);
+    background-color: #f5d3c8;
   
 }
 
@@ -256,7 +256,7 @@ display: flex;
 }
 
 .experience-sub-title{
-    color: rgb(85,85,85);
+    color: #f5d3c8;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
