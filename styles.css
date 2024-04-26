@@ -294,30 +294,30 @@ article .icon{
 }
 
 #projects {
-    position: relative;
-  }
-  
-  .color-container {
-    border-color:  rgb(114, 23, 73);
-    /* background: rgb(250, 250, 250); */
-  }
-  
-  .project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-  }
-  
-  .project-title {
-    margin: 1rem;
-    color: black;
-  }
-  
-  .project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
-  }
-  
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(114, 23, 73);
+  background:  #ead6e1;
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border:rgb(114, 23, 73) 0.1rem solid;
+  border-width: 2px;
+}
 
 /* CONTACT */
 
@@ -325,7 +325,8 @@ article .icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+   
+    z-index: 999; 
   }
   
   .contact-info-upper-container {
